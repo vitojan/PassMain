@@ -1,0 +1,9 @@
+python\Scripts\pyside2-uic.exe passmain.ui > ui_passmain.py
+python\Scripts\pyside2-rcc.exe ico.qrc > ico_rc.py
+python\python.exe -m ipykernel_launcher
+..\..\python\Scripts\pyside2-uic.exe passmain.ui > ui_passmain.py
+..\..\python\Scripts\pyside2-rcc.exe ico.qrc > ico_rc.py
+
+pip install tinyaes
+
+C:\Users\kids\Desktop\passmain\bin>C:\Users\kids\Desktop\passmain\python\python.exe -m PyInstaller -i C:\Users\kids\Desktop\passmain\data\9\ico4.ico -n PassMain.exe --onefile --noconsole --key wv524cs5c25v42 C:\Users\kids\Desktop\passmain\data\9\main.py
